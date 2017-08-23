@@ -25,6 +25,8 @@ lazy val root = project
   )
   .settings(
     publish := {},
-    publishLocal := {}
+    publishLocal := {},
+    test := {},
+    testOnly := {}
   )
   .enablePlugins(ScalaUnidocPlugin)
